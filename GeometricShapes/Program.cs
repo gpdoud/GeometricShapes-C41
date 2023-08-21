@@ -1,6 +1,10 @@
 ﻿
 using GeometricShapes;
 
+var sqr1 = new Sqr() { Side1 = 5 };
+
+Console.WriteLine($"Perimeter is {sqr1.Perimeter()}, Area is {sqr1.Area()}");
+
 var rect1 = new Rect() {
     Side1 = 3, Side2 = 5
 };
